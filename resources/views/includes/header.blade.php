@@ -19,7 +19,7 @@
                     <li><a href="{{route("videos")}}">VIDEOS</a></li>
                     <li><a href="{{route("fans")}}">FANS</a></li>
                     <li><a href="{{route("news")}}">NEWS</a></li>
-                    <li><a href="#">SHOP</a></li>
+                    <li><a href="{{route("shop")}}">SHOP</a></li>
                 </ul>
             </nav>
         </div>
