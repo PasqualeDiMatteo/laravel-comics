@@ -50,6 +50,9 @@ header{
         text-transform: uppercase;
         display: flex;
         line-height: 117px;
+        &:hover{
+            color: $blue;
+        }
     }
 
 

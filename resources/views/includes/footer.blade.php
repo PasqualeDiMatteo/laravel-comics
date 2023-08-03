@@ -2,6 +2,7 @@
     <div class="background">
         <div class="container footer-top">
             <div class="list-container">
+                {{-- DC Comics --}}
                 <div class="list-item">
                     <h2>DC COMICS</h2>
                     <ul>
@@ -12,6 +13,7 @@
                         <li><a href="#">Games</a></li>
                         <li><a href="#">Videos</a></li>
                         <li><a href="#">News</a></li>
+                        {{-- Shop --}}
                         <h2>SHOP</h2>
                         <ul>
                             <li><a href="#">Shop DC</a></li>
@@ -19,6 +21,7 @@
                         </ul>
                     </ul>
                 </div>
+                {{-- DC --}}
                 <div class="list-item">
                     <h2>DC</h2>
                     <ul>
@@ -36,6 +39,7 @@
                     </ul>
                 </div>
                 <div class="list-item">
+                    {{-- Sites --}}
                     <h2>SITES</h2>
                     <ul>
                         <li><a href="#">DC</a></li>
@@ -48,12 +52,14 @@
             </div>
         </div>
     </div>
+    {{-- Footer Bottom --}}
     <div class="footer-bottom ">
         <div class="container">
             <div class="content">
                 <button>SIGN-UP NOW!</button>
                 <div class="social-icon">
                     <span>FOLLOW US</span>
+                    {{-- Icon --}}
                     <ul>
                         <li><a href="#"><img src="{{Vite::asset("resources/img/footer-facebook.png")}}" alt=""></a></li>
                         <li><a href="#"><img src="{{Vite::asset("resources/img/footer-twitter.png")}}" alt=""></a></li>

@@ -23,6 +23,7 @@ $comics= config("comics");
             <button>LOAD MORE</button>
         </div>
     </div>
+    {{-- Main Links --}}
     <div class="main-links">
         <div class="container">
             <ul>
