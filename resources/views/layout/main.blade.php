@@ -14,6 +14,8 @@
 
 @include('includes.header')
 
+{{-- MAIN --}}
+
 <main>
     @yield("main-content")
 </main>
