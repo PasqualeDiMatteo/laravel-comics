@@ -13,7 +13,7 @@
                     <li><a href="{{route("caracters")}}">CARACTERS</a></li>
                     <li><a href="{{route("comics")}}">COMICS</a></li>
                     <li><a href="{{route("movies")}}">MOVIES</a></li>
-                    <li><a href="#">TV</a></li>
+                    <li><a href="{{route("tv")}}">TV</a></li>
                     <li><a href="#">GAMES</a></li>
                     <li><a href="#">COLLECTIBLES</a></li>
                     <li><a href="#">VIDEOS</a></li>
