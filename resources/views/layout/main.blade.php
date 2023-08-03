@@ -17,6 +17,7 @@
 {{-- MAIN --}}
 
 <main>
+    @include('includes.jumbotron')
     @yield("main-content")
 </main>
 
