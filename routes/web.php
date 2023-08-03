@@ -21,9 +21,9 @@ Route::get('/', function () {
 
 // Caracters
 
-Route::get('/caracters', function () {
-    return view('caracters');
-})->name("caracters");
+Route::get('/characters', function () {
+    return view('characters');
+})->name("characters");
 
 // Comics
 
