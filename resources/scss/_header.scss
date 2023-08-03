@@ -60,4 +60,39 @@ header{
         color: $blue;
         border-bottom: 3px solid $blue;
     }
+
+    input{
+        margin-left: 50px;
+        border: 2px solid transparent;
+        padding: 8px;
+        border-bottom:  2px solid $blue;
+
+        &::placeholder{
+            text-align: end;
+            font-size: 1rem;
+            font-weight: bold;
+            margin-right: 15px;
+            
+        }
+
+        &:focus-visible{
+            border:none;
+            outline: none;
+            border:  2px solid $blue;
+            border-radius: 9px;
+        }
+        
+    }
+    .search-bar{
+        position: relative;
+    }
+
+    .search-bar::after{
+        content: '\f002';
+        font: var(--fa-font-solid);
+        position: absolute;
+        top: 50%;
+        right: 2px;
+        transform: translateY(-50%);
+    }
 }

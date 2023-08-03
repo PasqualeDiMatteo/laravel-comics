@@ -20,8 +20,11 @@
                     <li><a href="{{route("fans")}}"@if (Route::is('fans')) class="active" @endif>FANS</a></li>
                     <li><a href="{{route("news")}}"@if (Route::is('news')) class="active" @endif>NEWS</a></li>
                     <li><a href="{{route("shop")}}"@if (Route::is('shop')) class="active" @endif>SHOP</a></li>
+                    <li class="search"><div class="search-bar"><input type="text" placeholder="Search" ></div></li>
                 </ul>
+                
             </nav>
+            
         </div>
     </div>
 </header>
