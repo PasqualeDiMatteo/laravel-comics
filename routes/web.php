@@ -32,3 +32,8 @@ Route::get('/movies', function () {
 Route::get('/tv', function () {
     return view('tv');
 })->name("tv");
+
+
+Route::get('/games', function () {
+    return view('games');
+})->name("games");
