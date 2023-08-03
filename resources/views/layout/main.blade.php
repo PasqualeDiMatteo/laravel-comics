@@ -7,6 +7,11 @@
     <link rel="icon" href="{{Vite::asset("resources/img/favicon.ico")}}">
     @vite("resources/js/app.js")
     <title>{{env('APP_NAME')}} | @yield('title')</title>
+    <style>
+        body{
+            display: none
+        }
+    </style>
 </head>
 <body>
 
