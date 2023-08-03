@@ -49,3 +49,7 @@ Route::get('/videos', function () {
 Route::get('/fans', function () {
     return view('fans');
 })->name("fans");
+
+Route::get('/news', function () {
+    return view('news');
+})->name("news");
