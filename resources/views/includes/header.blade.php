@@ -17,7 +17,7 @@
                     <li><a href="{{route("games")}}">GAMES</a></li>
                     <li><a href="{{route("collectibles")}}">COLLECTIBLES</a></li>
                     <li><a href="{{route("videos")}}">VIDEOS</a></li>
-                    <li><a href="#">FANS</a></li>
+                    <li><a href="{{route("fans")}}">FANS</a></li>
                     <li><a href="#">NEWS</a></li>
                     <li><a href="#">SHOP</a></li>
                 </ul>

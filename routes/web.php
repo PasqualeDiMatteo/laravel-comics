@@ -45,3 +45,7 @@ Route::get('/collectibles', function () {
 Route::get('/videos', function () {
     return view('videos');
 })->name("videos");
+
+Route::get('/fans', function () {
+    return view('fans');
+})->name("fans");
