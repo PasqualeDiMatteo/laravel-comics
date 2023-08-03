@@ -20,3 +20,7 @@ Route::get('/comics', function () {
 Route::get('/', function () {
     return view('home');
 })->name("home");
+
+Route::get('/caracters', function () {
+    return view('caracters');
+})->name("caracters");

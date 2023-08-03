@@ -10,7 +10,7 @@
             <nav>
                 <ul>
                     {{-- Navbar links --}}
-                    <li><a href="">CARACTERS</a></li>
+                    <li><a href="{{route("caracters")}}">CARACTERS</a></li>
                     <li><a href="{{route("comics")}}">COMICS</a></li>
                     <li><a href="#">MOVIES</a></li>
                     <li><a href="#">TV</a></li>
