@@ -22,6 +22,10 @@
 </main>
 
 
+{{-- Footer --}}
+
+@include('includes.footer')
+
 
 </body>
 </html>
