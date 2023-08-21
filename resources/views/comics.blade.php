@@ -7,6 +7,7 @@ $comics= config("comics");
 @endphp
 
 @section('main-content')
+<div id="comics">
     {{-- Background --}}
     <div class="background">
         <div class="container container-card">
@@ -60,4 +61,5 @@ $comics= config("comics");
             </ul>
         </div>
     </div>
+</div>
 @endsection
