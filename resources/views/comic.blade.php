@@ -119,6 +119,7 @@
             </div>
         </div>
     </div>
-    
+    <a href="{{route("comic",$next)}}"><i class="fa-solid fa-chevron-right fa-4x"></i></a>
+    <a href="{{route("comic",$prev)}}"><i class="fa-solid fa-chevron-left fa-4x"></i></a>
 </div>
 @endsection
