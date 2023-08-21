@@ -119,6 +119,32 @@
             color: $font-blue;
             border-bottom: 1px solid lightgray;
         }
-        
+        .links{
+            border-top: 1px solid lightgray;
+            .row{
+                display: flex;
+                margin: 0;
+            }
+            .col{
+                flex-basis: 25%;
+                display: flex;
+                justify-content: space-between;
+                padding: 10px;
+                border-left: 1px solid lightgray;
+                border-right: 1px solid lightgray;
+                margin: 0;
+                h6{
+                    color:lightgray ;
+                    font-weight: 600;
+                    font-size: 17px;
+                }
+                img{
+                    width: 60px;
+                    color: $dark-gray;
+                    filter: brightness(0) saturate(100%) invert(100%) sepia(33%) saturate(3884%) hue-rotate(182deg) brightness(122%) contrast(73%);
+                    object-fit: contain;
+                }
+            }
+        }
     }
 }

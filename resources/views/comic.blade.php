@@ -93,10 +93,32 @@
                         </div>
                     </div>
                 </div>
-                
-                
+            </div>
+        </div>
+        {{-- Links --}}
+        <div class="links">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h6>DIGITAL COMICS</h6>
+                        <img src="{{Vite::asset("resources/img/buy-comics-digital-comics.png")}}" alt="DC">
+                    </div>
+                    <div class="col">
+                        <h6>SHOP DC</h6>
+                        <img src="{{Vite::asset("resources/img/buy-comics-subscriptions.png")}}" alt="DC">
+                    </div>
+                    <div class="col">
+                        <h6>COMIC SHOP LOCATOR</h6>
+                        <img src="{{Vite::asset("resources/img/buy-comics-shop-locator.png")}}" alt="DC">
+                    </div>
+                    <div class="col">
+                        <h6>SUBSCRIPTIONS</h6>
+                        <img src="{{Vite::asset("resources/img/buy-comics-merchandise.png")}}" alt="DC">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    
 </div>
 @endsection
