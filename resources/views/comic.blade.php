@@ -17,10 +17,10 @@
                 <h2>{{$comic["title"]}}</h2>
                 <div class="availability">
                     <div class="availability-left">
-                        <div class="price"> U.S. Price: {{ $comic["price"]}}</div>
+                        <div class="price"> U.S. Price: <span>{{ $comic["price"]}}</span></div>
                         <div class="status">AVAILABLE</div>
                     </div>
-                    <div class="availability-right"></div>
+                    <div class="availability-right">Check Availability</div>
                 </div>
                 <p class="description">{{ $comic["description"]}}</p>
             </div>

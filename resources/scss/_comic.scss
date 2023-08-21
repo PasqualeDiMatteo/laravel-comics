@@ -1,3 +1,5 @@
+@use "../scss/vars" as *;
+
 #comic{
     position: relative;
     .card-comic{
@@ -16,7 +18,72 @@
         }
     }
     .bg-blue{
-        background-color:#0282f9 ;
+        background-color:$blue ;
         height: 70px;
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+        margin: 100px 0;
+        .card-left{
+            flex-basis: 60%;
+        }
+        .card-right{
+            flex-basis: 40%;
+            text-align: end;
+            
+        }
+    }
+    h2{
+        margin-bottom: 20px;
+        color: $font-blue;
+        font-size: 35px;
+    }
+
+    .availability{
+        width: 100%;
+        display: flex;
+        margin-bottom: 20px;
+        background-color: #55ba59;
+        border-bottom: 1px solid black;
+        .availability-left{
+            display: flex;
+            padding: 20px 25px;
+            flex-basis:70% ;
+            border-right:1px solid black ;
+            .price{
+                flex-basis:60% ;
+                height: 100%;
+                font-weight: 600;
+                color: #bafd9c;
+                span{
+                    color: white;
+                }
+            }
+            .status{
+                flex-basis:40% ;
+                text-align: end;
+                font-weight: 600;
+                color: #bafd9c;
+            }
+        }
+        .availability-right{
+            text-align: center;
+            padding: 20px 25px;
+            flex-basis:30% ;
+            font-weight: 600;
+            color: white;
+        }
+        
+    }
+    .description{
+        color: $grey;
+        font-size: 20px;
+        line-height: 29px;
+    }
+    h5{
+        color: $grey;
+        font-size: 20px;
+        margin-bottom: 20px;
     }
 }
